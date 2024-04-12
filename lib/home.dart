@@ -6,16 +6,12 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: Colors.black,
       body: Center(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
 
-            SizedBox(
-              height:100,
-              width: 100,
-              child:  Image.asset('assets/logo.png')),
 
             Text('ALGORA REGISTRATION'),
             
