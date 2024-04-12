@@ -12,7 +12,10 @@ class Home extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
 
-            Image.asset('assets/logo.png'),
+            SizedBox(
+              height:100,
+              width: 100,
+              child:  Image.asset('assets/logo.png')),
 
             Text('ALGORA REGISTRATION'),
             
@@ -65,7 +68,7 @@ class Home extends StatelessWidget {
         
         
             Container(
-              height: 500,
+              height: 400,
               width: 400,
               decoration: BoxDecoration(
                 color: Colors.white,
