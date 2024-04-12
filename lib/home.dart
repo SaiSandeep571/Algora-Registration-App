@@ -14,6 +14,13 @@ class Home extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
 
+            Container(
+              alignment: Alignment.center,
+              height: 75,
+              width: 75,
+              child: Image.asset('assets/logo.png'),
+            ),
+
 
             Text('ALGORA REGISTRATION',
             style: GoogleFonts.aBeeZee(
