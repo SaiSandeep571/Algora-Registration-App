@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -13,11 +15,19 @@ class Home extends StatelessWidget {
           children: [
 
 
-            Text('ALGORA REGISTRATION'),
+            Text('ALGORA REGISTRATION',
+            style: GoogleFonts.aBeeZee(
+              fontWeight:FontWeight.w700,
+              fontSize:15,
+              color:Colors.white,
+            )
+            ),
+
+            SizedBox(height: 10),
             
             SizedBox(
               height: 50,
-              width: 250,
+              width: 400,
               child: TextFormField(
                 decoration: InputDecoration(
                   filled: true,
@@ -29,10 +39,12 @@ class Home extends StatelessWidget {
                 ),
               ),
             ),
+
+            SizedBox(height: 10),
         
             SizedBox(
               height: 50,
-              width: 250,
+              width: 400,
               child: TextFormField(
                 decoration: InputDecoration(
                   filled: true,
@@ -44,10 +56,12 @@ class Home extends StatelessWidget {
                 ),
               ),
             ),
+
+            SizedBox(height: 10),
         
             SizedBox(
               height: 50,
-              width: 250,
+              width: 400,
               child: TextFormField(
                 decoration: InputDecoration(
                   filled: true,
@@ -59,8 +73,17 @@ class Home extends StatelessWidget {
                 ),
               ),
             ),
+
+            SizedBox(height: 10),
         
-            Text('EVENTS'),
+            Text('EVENTS',
+            style: GoogleFonts.poppins(
+              fontSize:15,
+              color:Colors.white,
+            )
+            ),
+
+            SizedBox(height: 10),
         
         
             Container(
