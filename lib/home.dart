@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
 
-            Image.asset('assets/logo.jpg'),
+            Image.asset('assets/logo.png'),
 
             Text('ALGORA REGISTRATION'),
             
