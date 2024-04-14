@@ -10,16 +10,18 @@ class Reg extends StatelessWidget {
       backgroundColor: Colors.black,
       body: SingleChildScrollView( 
         child: Container(
-          margin: EdgeInsets.all(25),
+          margin: EdgeInsets.all(30),
           child: Center(
             child: Column(
               children: [
             
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 125,
+                  width: 125,
                   child: Image.asset('assets/logo.png'),
                 ),
+
+                SizedBox(height: 10,),
             
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
