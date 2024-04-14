@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Scan extends StatelessWidget {
   const Scan({super.key});
@@ -6,14 +7,37 @@ class Scan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Container(
-            height: 200,
-            width: 200,
-            color: Colors.red,
-          )
-        ],
+      backgroundColor: Colors.black,
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+
+            Container(
+              height: 100,
+              width: 100,
+              child: Image.asset('assets/logo.png'),
+            ),
+
+
+            Container(
+              alignment: Alignment.center,
+              height: 40,
+              width: 125,
+              decoration: BoxDecoration(
+                color:Color.fromARGB(255, 190, 214, 255),
+                borderRadius: BorderRadius.circular(10)
+              ),
+              child: Text('SCAN',
+                      style: GoogleFonts.poppins(
+                        fontWeight:FontWeight.w600,
+                        fontSize:15,
+                        color:Colors.black,
+                      )
+                      ),
+            )
+          ],
+        ),
       ),
     );
   }
