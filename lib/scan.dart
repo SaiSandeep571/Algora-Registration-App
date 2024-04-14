@@ -14,10 +14,12 @@ class Scan extends StatelessWidget {
           children: [
 
             Container(
-              height: 100,
-              width: 100,
-              child: Image.asset('assets/logo.png'),
+              height: 200,
+              width: 200,
+              child: Image.asset('assets/qr.png'),
             ),
+
+            SizedBox(height: 40,),
 
 
             Container(
